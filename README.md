@@ -29,24 +29,6 @@
 
 ---
 
-## 📁 Cấu trúc dự án
-
-```bash
-NEUTRONS/
-├── src/
-│   ├── main.py               # File chạy chính
-│   ├── dictionary.py         # Xử lý tra từ
-│   ├── voice.py              # Xử lý giọng nói
-│   ├── search.py             # Xử lý tra cứu thông tin
-│   ├── utils.py              # Tiện ích chung
-├── data/
-│   └── DICTIONARYDOC.docx    # Từ điển 5000 từ vựng
-├── requirements.txt
-└── README.md
-└── .gitignore
-
----
-
 ## 🛠️ Các công nghệ đã dùng
 speech_recognition – Nhận diện giọng nói
 gTTS + playsound – Tạo giọng nói tiếng Việt
@@ -86,5 +68,22 @@ Xây dựng giao diện GUI đẹp mắt
 ## 📜 Giấy phép
 Dự án chia sẻ với mục đích học tập – phi lợi nhuận. Ai cũng có thể clone và mở rộng lại.
 
-🙏 Cảm ơn bạn đã ghé thăm NEUTRONS!
+## 🙏 Cảm ơn bạn đã ghé thăm NEUTRONS!
 Nếu bạn thích dự án, đừng quên ⭐ star và để lại góp ý nhé!
+
+## 📁 Cấu trúc dự án
+
+```bash
+NEUTRONS/
+├── src/
+│   ├── main.py               # File chạy chính
+│   ├── dictionary.py         # Xử lý tra từ
+│   ├── voice.py              # Xử lý giọng nói
+│   ├── search.py             # Xử lý tra cứu thông tin
+│   ├── utils.py              # Tiện ích chung
+├── data/
+│   └── DICTIONARYDOC.docx    # Từ điển 5000 từ vựng
+├── requirements.txt
+└── README.md
+└── .gitignore
+
