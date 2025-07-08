@@ -1,0 +1,9 @@
+__pycache__/
+*.mp3
+*.env
+*.exe
+*.log
+*.pyc
+data/*.docx
+.vscode/
+.idea/
