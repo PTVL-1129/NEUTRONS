@@ -1,6 +1,7 @@
 from voice import speak, get_text
 from docx import Document
 import time
+import os
 
 def diclst(file_path):
     doc = Document(file_path)
@@ -12,7 +13,7 @@ def check_dictionary():
 
     speak("Hãy nói từ cần tra:")
     word = get_text()
-    path = "DICTIONARYDOC.docx"
+    path = os.path.join('data', 'DICTIONARYDOC.docx')
     lines = diclst(path)
     found = False
 
